@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace FileReading
 {
-    public class ReadXmlFile : ReadFile, IReadXmlFile
+    public class ReadXmlFile : ReadFile
     {
         public override object ReadingdFiles(string fileLocation)
         {

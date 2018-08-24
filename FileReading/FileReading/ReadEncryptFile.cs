@@ -7,14 +7,24 @@ using System.Threading.Tasks;
 
 namespace FileReading
 {
-    public class ReadTextFile:ReadFile
+    public class ReadEncryptFile : ReadFile
     {
         public override object ReadingdFiles(string fileLocation)
         {
+            
             var res = File.ReadAllText(fileLocation);
 
-            return res;
+            return ReverseDecoding(res);
+        }
+
+        public string ReverseDecoding(string s)
+        {
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
         }
 
     }
+
+  
 }

@@ -51,6 +51,7 @@
     <Compile Include="ReadTextFileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadXmlFileTest.cs" />
+    <Compile Include="ReadEncryptTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
