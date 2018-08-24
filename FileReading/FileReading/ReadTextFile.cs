@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace FileReading
 {
-    public class ReadTextFile: IReadTextFile
+    public class ReadTextFile:ReadFile, IReadTextFile
     {
-        public  object ReadingdFiles(string fileLocation)
+        public override object ReadingdFiles(string fileLocation)
         {
             var res = File.ReadAllText(fileLocation);
 

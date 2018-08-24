@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="ReadTextFileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadXmlFileTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
