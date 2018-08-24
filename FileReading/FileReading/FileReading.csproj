@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ReadEncryptedtFile.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="IReadEncryptedFile.cs" />
     <Compile Include="IReadXmlFile.cs" />
     <Compile Include="ReadFile.cs" />
     <Compile Include="IReadTextFile.cs" />
